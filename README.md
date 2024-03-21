@@ -8,6 +8,9 @@ This chess game is implemented in C++ and features two distinct AI opponents: **
 - **One Step Ahead AI:** Strategically aims to force the opponent into making captures. It evaluates the immediate consequences of moves and prefers pawn promotions that compel the opponent to capture, looking slightly ahead to anticipate the game's potential outcomes.
 
 
+![Two onestep AIs playing](img/chess.gif)
+
+
 ### Compilation
 
 * Compile the game with the following command:
