@@ -16,8 +16,10 @@ This chess game is implemented in C++ and features two distinct AI opponents: **
 g++ -std=c++17 -o chess main.cpp Bishop.cpp ChessAI.cpp ChessBoard.cpp ChessMove.cpp ChessPiece.cpp King.cpp Knight.cpp OneStepAheadAI.cpp Pawn.cpp Queen.cpp RandomAI.cpp Rook.cpp
 ```
 
-* run: ./chess [starting_color] [ai_type for white] [ai_type for black] [input_filename]
-
+* run: 
+```bash
+./chess [starting_color] [ai_type for white] [ai_type for black] [input_filename]
+```
 
 - `starting_color`: Either `white` or `black`.
 - `ai_type`: Choose between `random` or `onestep` for both white and black players.
@@ -25,7 +27,13 @@ g++ -std=c++17 -o chess main.cpp Bishop.cpp ChessAI.cpp ChessBoard.cpp ChessMove
 
 ## Testing
 
-* compile tests: g++ -std=c++17 -o chess tests.cpp Bishop.cpp ChessAI.cpp ChessBoard.cpp ChessMove.cpp ChessPiece.cpp King.cpp Knight.cpp OneStepAheadAI.cpp Pawn.cpp Queen.cpp RandomAI.cpp Rook.cpp
+* compile tests: 
+```bash
+g++ -std=c++17 -o chess tests.cpp Bishop.cpp ChessAI.cpp ChessBoard.cpp ChessMove.cpp ChessPiece.cpp King.cpp Knight.cpp OneStepAheadAI.cpp Pawn.cpp Queen.cpp RandomAI.cpp Rook.cpp
+```
 
-* run tests: ./chess < tests.in
+* run tests: 
+```bash
+./chess < tests.in
+```
 
