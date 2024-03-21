@@ -2,6 +2,8 @@
 
 This chess game is implemented in C++ and features two distinct AI opponents: **Random AI** and **One Step Ahead AI**. Unlike traditional chess programs, this game does not use a matrix representation for the board; instead, it tracks all game information through the list of chess pieces.
 
+**The player who loses all of their pieces first wins!**
+
 ## AI Strategies
 
 - **Random AI:** Makes moves at random, including random choices for pawn promotion.
