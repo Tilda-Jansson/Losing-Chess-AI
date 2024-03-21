@@ -5,7 +5,7 @@ This chess game is implemented in C++ and features two distinct AI opponents: **
 ## AI Strategies
 
 - **Random AI:** Makes moves at random, including random choices for pawn promotion.
-- **One Step Ahead AI:** Strategically aims to force the opponent into making captures. It evaluates the immediate consequences of moves and prefers pawn promotions that does not immedietly lead to the capturing of the opponents pieces. It tries to compel the opponent to capture, looking slightly ahead to anticipate the game's potential outcomes.
+- **One Step Ahead AI:** Strategically aims to force the opponent into making captures. It evaluates the immediate consequences of moves and prefers pawn promotions that do not immediately lead to the capturing of the opponent's pieces. It tries to compel the opponent to capture, looking slightly ahead to anticipate the game's potential outcomes.
 
 
 ![Two onestep AIs playing](img/chess.gif)
